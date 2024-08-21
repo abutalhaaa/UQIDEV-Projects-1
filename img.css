@@ -5,16 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  /* font-weight: 250; */
   font-style: normal;
 }
 
 .max-container {
-    max-width: 1400px;
+    max-width: 1350px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 10px;
-  }
+}
 
   header {
     position: sticky;
@@ -23,25 +21,25 @@
   }
 
 nav {
-    padding: 1rem;
     max-width: 1400px;
     margin: 0 auto;
     align-items: center;
     display: flex; 
     justify-content: space-between; 
+    padding : 15px 0px ;
 
   }
 
   .left-nav{
     font-weight: 1200;
   }
+
   .right-nav{
     padding:0px 0px 0px 30px;
   }
 
   ul{
     list-style: none;
-    /* background: #fff; */
   }
 
    ul li {
@@ -49,9 +47,12 @@ nav {
     position: relative;
   }
   ul li a {
+    width: 100px;
     display: block;
-    padding : 10px 10px ;
-    color : black;
+    padding : 7px 7px ;
+    color : antiquewhite;
+    background-color: black;
+    border: 0.5px solid antiquewhite;
     text-decoration: none;
     text-align: center;
   }
@@ -88,7 +89,16 @@ nav {
   .about-author {
     display: flex;
     gap: 30px; 
-    padding : 20px ;
- align-items: center;
+    align-items: center;
+    padding: 15px  0px;
+  }
+
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  article {
+    margin-bottom: 50px;
   }
 
